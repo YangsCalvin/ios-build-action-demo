@@ -15,5 +15,7 @@ target 'ios-build-action-demo' do
   target 'ios-build-action-demoUITests' do
     # Pods for testing
   end
-
+  
+  pod 'Bugly'
+  
 end
