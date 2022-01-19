@@ -35,7 +35,7 @@ jobs:
       - uses: yukiarrr/ios-build-action@v1.5.0
         with:
             project-path: ios-build-action-demo.xcodeproj
-#             workspace-path: ios-build-action-demo.xcworkspace
+            workspace-path: ios-build-action-demo.xcworkspace
             p12-base64: ${{ secrets.P12_BASE64}}
             mobileprovision-base64: ${{ secrets.MOBILEPROVISION_BASE64}}
             code-signing-identity: ${{ secrets.CODE_SIGNING_IDENTITY }}
